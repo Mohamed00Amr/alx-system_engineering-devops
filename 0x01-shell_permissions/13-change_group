@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -f hello ]
+then
+chgrp school hello
+echo "The group owner of hello has been changed to school."
+else
+echo "The file hello does not exist in the current directory."
+fi
