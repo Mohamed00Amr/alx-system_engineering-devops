@@ -1,2 +1,3 @@
 #!/bin/bash
-bash starwars.sh
+telnet towel.blinkenlights.nl
+
